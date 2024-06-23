@@ -50,8 +50,6 @@
 	text-transform: uppercase;
 }
 
-
-
 .logo__img {
 	display: block;
 	margin: 0 auto;
@@ -73,7 +71,11 @@
 }
 
 .promo h2 {
-	margin-top: 25px;
+	margin-top: 12px;
+}
+
+.promo .btn {
+	margin-top: 75px;
 }
 
 .promo__text {
@@ -91,3 +93,16 @@
 	text-transform: uppercase;
 }
 
+.promo__more-text {
+	margin-top: 75px;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 17.58px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.promo__more-img {
+	display: block;
+	margin: 10px auto 0 auto;
+}
