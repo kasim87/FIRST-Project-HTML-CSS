@@ -19,7 +19,7 @@
 .btn {
 	min-width: 315px;
 	min-height: 72px;
-	margin: 0 auto;
+	margin: 60px auto;
 	padding: 0 15px;
 	display: block;
 	border-radius: 4px;
@@ -230,16 +230,28 @@
 	border-radius: 100%;
 }
 
-/* .skills__img {
-	width: 55px;
-	height: 60px;
-} */
-
 .skills__desc {
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
 	color: #EFEFEF;
+}
+
+.present {
+	background-color:#EFEFEF;
+	padding: 80px 0 80px 0;
+}
+
+.present__img {
+	display: block;
+	margin: 0 auto;
+}
+
+.present p {
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
 }
 
