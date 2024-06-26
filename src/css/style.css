@@ -218,3 +218,21 @@ span {
 	color: #EFEFEF;
 	text-align: center;
 }
+
+.webinar {
+	background: #EFEFEF;
+	padding: 90px 0 90px 0;
+}
+
+.webinar img {
+	display: block;
+	margin: auto;
+}
+
+.webinar p {
+	margin-top: 45px;
+	font-weight: 400;
+	font-size: 30px;
+	color: #252525;
+	text-align: center;
+}
