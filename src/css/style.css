@@ -14,7 +14,8 @@ button {
 }
 
 .container {
-	max-width: 1140px;
+	position: relative;
+	width: 1140px;
 	margin: auto;
 }
 
@@ -144,4 +145,35 @@ button {
 	margin-top: 25px;
 	font-weight: 300;
 	font-size: 15px;
+}
+
+.optimization {
+	min-height: 550px;
+	padding: 107px 0px 107px 0;
+}
+
+.optimization h2 {
+	padding-left: 500px;
+	font-weight: 900;
+	font-size: 30px;
+	color: rgb(41, 156, 189);
+}
+
+.optimization p {
+	padding-left: 500px;
+	margin-top: 25px;
+	font-weight: 300;
+	font-size: 17px;
+	color: rgb(74, 74, 74);
+}
+
+span {
+	font-weight: 700;
+}
+
+.optimization img {
+	position: absolute;
+	top: -54px;
+	left: -140px;
+	z-index: -1;
 }
