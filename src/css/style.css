@@ -177,3 +177,44 @@ span {
 	left: -140px;
 	z-index: -1;
 }
+
+.finish {
+	background: url('../img/second_bg.png') center center / cover no-repeat;
+	padding: 85px 0;
+}
+
+.finish h3 {
+	font-weight: 400;
+	font-size: 30px;
+	color: #EFEFEF;
+	text-align: center;
+}
+
+.finish__wrapper {
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.finish__item {
+	width: 225px;
+}
+
+.finish__round {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #B4E2FF;
+	border-radius: 100%;
+}
+
+.finish__item p {
+	margin-top: 25px;
+	font-weight: 300;
+	font-size: 17px;
+	color: #EFEFEF;
+	text-align: center;
+}
