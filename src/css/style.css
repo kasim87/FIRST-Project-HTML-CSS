@@ -1,289 +1,30 @@
 * {
-	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+nav {
+	height: 50px;
+	background: rgb(33, 33, 33);
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 70px;
 	margin: 0;
-	padding: 0;
+	list-style-type: none;
 }
 
-button {
-	display: block;
-	min-width: 284px;
-	min-height: 48px;
-	margin: 72px auto;
-	background: rgb(16, 160, 226);
-	color:rgb(255, 255, 255);
+.menu__item {
+	border-right: 2px dotted white;
+	padding-right: 30px;
 }
 
-.container {
-	position: relative;
-	width: 1140px;
-	margin: auto;
-}
-
-.promo {
-	background: url('../img/main_bg.jpeg') center center / cover no-repeat;
-	max-height: 800px;
-	padding: 40px 0 60px 0;
-}
-
-.logo {
-	width: 200px;
-	height: 100px;
-	margin: auto;
-}
-
-.logo img {
-	display: block;
-	margin: auto;
-}
-
-.logo__text {
-	margin-top: 9px;
-	font-weight: 500;
-	font-size: 15px;
+.menu__link {
 	color: rgb(255, 255, 255);
-	text-align: center;
-}
-
-.promo h2 {
-	margin-top: 50px;
-	font-weight: 900;
-	font-size: 40px;
-	color: rgb(249, 191, 59);
-	text-align: center;
-}
-
-.simple {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.line__divider {
-	margin: auto;
-	width: 290px;
-	height: 2px;
-	background: rgb(255, 255, 255);
-}
-
-.simple h1 {
-	font-weight: 900;
-	font-size: 80px;
-	color: rgb(255, 255, 255);
-}
-
-.container .promo__H2 {
-	margin-top: 20px;
-}
-
-.promo p {
-	margin-top: 20px;
-	font-weight: 300;
-	font-size: 21px;
-	color: rgb(255, 255, 255);
-	text-align: center;
-}
-
-.promo span {
-	color: rgb(249, 191, 59);
-}
-
-.promo h3 {
-	margin-top: 80px;
-	font-weight: 250;
-	font-size: 15px;
-	color: rgb(255, 255, 255);
-	text-align: center;
-}
-
-.promo img {
-	display: block;
-	margin: 10px auto;
-}
-
-.intensive {
-	background: rgb(239, 239, 239);
-	padding: 90px 0 75px 0;
-}
-
-.intensive h2 {
-	font-weight: 400;
-	font-size: 30px;
-	color: rgb(37, 37, 37);
-	text-align: center;
-}
-
-.divider {
-	width: 220px;
-	height: 7px;
-	margin: 45px auto;
-	background: rgb(249, 191, 59);
-}
-
-.intensive h4 {
-	margin-top: 18px;
-	font-weight: 400;
-	font-size: 23px;
-	color: rgb(74, 74, 74);
-	text-align: center;
-}
-
-.intensive__wrapper {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 45px;
-}
-
-.intensive__item {
-	width: 340px;
-}
-
-.intensive__item img {
-	width: 100%;
-}
-
-.intensive p {
-	margin-top: 25px;
 	font-weight: 300;
 	font-size: 15px;
-}
-
-.optimization {
-	min-height: 550px;
-	padding: 107px 0px 107px 0;
-}
-
-.optimization h2 {
-	padding-left: 500px;
-	font-weight: 900;
-	font-size: 30px;
-	color: rgb(41, 156, 189);
-}
-
-.optimization p {
-	padding-left: 500px;
-	margin-top: 25px;
-	font-weight: 300;
-	font-size: 17px;
-	color: rgb(74, 74, 74);
-}
-
-span {
-	font-weight: 700;
-}
-
-.optimization img {
-	position: absolute;
-	top: -54px;
-	left: -140px;
-	z-index: -1;
-}
-
-.finish {
-	background: url('../img/second_bg.png') center center / cover no-repeat;
-	padding: 85px 0;
-}
-
-.finish h3 {
-	font-weight: 400;
-	font-size: 30px;
-	color: #EFEFEF;
-	text-align: center;
-}
-
-.finish__wrapper {
-	margin-top: 65px;
-	display: flex;
-	justify-content: space-around;
-}
-
-.finish__item {
-	width: 225px;
-}
-
-.finish__round {
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #B4E2FF;
-	border-radius: 100%;
-}
-
-.finish__item p {
-	margin-top: 25px;
-	font-weight: 300;
-	font-size: 17px;
-	color: #EFEFEF;
-	text-align: center;
-}
-
-.present {
-	background: #EFEFEF;
-	padding: 90px 0 90px 0;
-}
-
-.present img {
-	display: block;
-	margin: auto;
-}
-
-.present p {
-	margin-top: 45px;
-	font-weight: 400;
-	font-size: 30px;
-	color: #252525;
-	text-align: center;
-}
-
-.webinar {
-	padding: 90px 0 50px 0;
-}
-
-.webinar img {
-	display: block;
-	margin: auto;
-}
-
-.webinar__first {
-	margin-top: 35px;
-	font-weight: 400;
-	font-size: 30px;
-	color: #252525;
-	text-align: center;
-} 
-
-.webinar__time {
-	margin-top: 30px;
-	font-weight: 900;
-	font-size: 35px;
-	color: #299CBD;
-	text-align: center;
-}
-
-.webinar p {
-	margin-top: 25px;
-	font-weight: 400;
-	font-size: 25px;
-	color: #4A4A4A;
-	text-align: center;
-}
-
-footer {
-	background: #1A1A1A;
-	padding: 55px 0 70px 0;
-}
-
-footer a {
-	font-weight: 300;
-	font-size: 15px;
-	color: #888888;
 	text-decoration: none;
-	text-align: center;
 }
 
-footer p {
-	text-align: center;
-	color: #888888;;
-}
+
