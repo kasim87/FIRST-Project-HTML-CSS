@@ -266,3 +266,46 @@ nav {
 	text-align: center;
 	cursor: pointer;
 }
+
+.choice {
+	position: relative;
+	background: rgb(7, 7, 22);
+	padding-top: 60px;
+	height: 500px;
+}
+
+.label {
+	background: white;
+	color: black;
+}
+
+.title {
+	color: white;
+}
+
+.title__text {
+	color: white;
+}
+
+.choice_img {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 40px;
+}
+
+.substrate {
+	background: url('../img/mobile_bg.png') center center / cover no-repeat;
+	padding: 210px 0 140px 0;
+}
+
+.substrate p {
+	display: block;
+	margin: auto;
+	width: 327px;
+	height: 48px;
+	font-weight: 300;
+	font-size: 17px;
+	color: rgb(34, 34, 34);
+	text-align: center;
+}
