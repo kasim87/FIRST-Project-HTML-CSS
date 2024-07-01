@@ -110,6 +110,10 @@ nav {
 	border-radius: 4px
 }
 
+.subheader_btn:hover {
+	background: rgb(5, 118, 141);;
+}
+
 .promo {
 	background: url('../img/uber_bg.png') center center / cover no-repeat;
 	min-height: 800px;
@@ -142,7 +146,7 @@ nav {
 	text-align: center;
 }
 
-.promo_btn{
+.promo_btn {
 	display: block;
 	margin: 120px auto 0 auto;
 	width: 260px;
@@ -154,6 +158,10 @@ nav {
 	color: rgb(255, 255, 255);
 	font-weight: 400;
 	font-size: 18px;
+}
+
+.promo_btn:hover {
+	background: rgb(5, 118, 141);;
 }
 
 .privilege {
@@ -290,7 +298,6 @@ nav {
 .choice_img {
 	display: block;
 	position: absolute;
-	z-index: 2;
 	top: 40px;
 }
 
@@ -308,4 +315,46 @@ nav {
 	font-size: 17px;
 	color: rgb(34, 34, 34);
 	text-align: center;
+}
+
+.require {
+	padding: 70px 0 90px 0;
+}
+
+.label {
+	background: black;
+	color: white;
+}
+
+.title {
+	color: rgb(34, 34, 34);
+}
+
+.row {
+	padding-top: 37px;
+}
+
+.require_title {
+	font-weight: 400;
+	font-size: 20px;
+	color: rgb(28, 168, 195);
+}
+
+.require_list {
+	margin-top: 20px;
+}
+
+..require_list li {
+	font-weight: 300;
+	font-size: 17px;
+	color: rgb(34, 34, 34);
+}
+
+.require_subtitle {
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+.require_title_red {
+	color: rgb(255, 86, 86);
 }
